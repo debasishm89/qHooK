@@ -1,0 +1,28 @@
+Time Stamp,API Arguments,API Name,Return Address(Poi to Stack/Heap),Stack Value(Poi to Stack/Heap),Disassembly,Raw Hex Bytes,If printable Strings
+44:22.9,Argument : 0,kernel32.dll!WriteFile,0x77c30218(N/A),0xc(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+44:22.9,Argument : 1,kernel32.dll!WriteFile,0x77c30218(N/A),0x12f068(stack),"and edx,[esi+0x55]; push eax; insb ; popa ; jns 0x67; jc 0x22; ",235655506c6179657220,#VUPlayer 
+44:22.9,Argument : 2,kernel32.dll!WriteFile,0x77c30218(N/A),0x14(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+44:22.9,Argument : 3,kernel32.dll!WriteFile,0x77c30218(N/A),0x12f04c(stack),"jo 0xb; xchg eax,ecx; jl 0xfffffff2; inc ebp; mov bl,0x0; add [eax],eax; ",7009917cf045b3000100,p..|.E....
+44:23.0,Argument : 4,kernel32.dll!WriteFile,0x77c30218(N/A),0x0(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+,,,,,,,
+44:23.0,Argument : 0,kernel32.dll!VirtualProtect,0x1010539f(N/A),0x12ee74(stack),nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; ,9.09091E+19,..........
+44:23.0,Argument : 1,kernel32.dll!VirtualProtect,0x1010539f(N/A),0x201(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+44:23.0,Argument : 2,kernel32.dll!VirtualProtect,0x1010539f(N/A),0x40(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+44:23.0,Argument : 3,kernel32.dll!VirtualProtect,0x1010539f(N/A),0x101087c3(N/A),"add [eax],al; add [eax],al; add [eax],al; add [eax],al; add [eax],al; ",0,..........
+,,,,,,,
+44:23.0,Argument : 0,kernel32.dll!VirtualProtectEx,0x7c801ae8(N/A),0xffffffffL(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+44:23.0,Argument : 1,kernel32.dll!VirtualProtectEx,0x7c801ae8(N/A),0x12ee74(stack),nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; ,9.09091E+19,..........
+44:23.0,Argument : 2,kernel32.dll!VirtualProtectEx,0x7c801ae8(N/A),0x201(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+44:23.0,Argument : 3,kernel32.dll!VirtualProtectEx,0x7c801ae8(N/A),0x40(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+,,,,,,,
+44:30.4,Argument : 0,kernel32.dll!GetProcAddress,0x7ca39f55(N/A),0x773d0000(N/A),"dec ebp; pop edx; nop ; add [ebx],al; add [eax],al; add [eax+eax],al; ",4d5a9000030000000400,MZ........
+44:30.4,Argument : 1,kernel32.dll!GetProcAddress,0x7ca39f55(N/A),0x150(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+,,,,,,,
+44:30.4,Argument : 0,kernel32.dll!GetProcAddress,0x7ca39f55(N/A),0x773d0000(N/A),"dec ebp; pop edx; nop ; add [ebx],al; add [eax],al; add [eax+eax],al; ",4d5a9000030000000400,MZ........
+44:30.4,Argument : 1,kernel32.dll!GetProcAddress,0x7ca39f55(N/A),0x149(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
+,,,,,,,
+44:30.4,Argument : 0,kernel32.dll!GetProcAddress,0x7ca3e6de(N/A),0x7c800000(N/A),"dec ebp; pop edx; nop ; add [ebx],al; add [eax],al; add [eax+eax],al; ",4d5a9000030000000400,MZ........
+44:30.4,Argument : 1,kernel32.dll!GetProcAddress,0x7ca3e6de(N/A),0x7c9d039c(N/A),"push edx; gs insb ; gs popa ; jnc 0x67; inc ecx; arpl [eax+eax+0x0],si; ",52656c65617365416374,ReleaseAct
+,,,,,,,
+44:30.4,Argument : 0,kernel32.dll!GetProcAddress,0x7745aa26(N/A),0x7c800000(N/A),"dec ebp; pop edx; nop ; add [ebx],al; add [eax],al; add [eax+eax],al; ",4d5a9000030000000400,MZ........
+44:30.4,Argument : 1,kernel32.dll!GetProcAddress,0x7745aa26(N/A),0x773d3324(N/A),"push edx; gs insb ; gs popa ; jnc 0x67; inc ecx; arpl [eax+eax+0x0],si; ",52656c65617365416374,ReleaseAct
