@@ -1,28 +1,76 @@
-Time Stamp,API Arguments,API Name,Return Address(Poi to Stack/Heap),Stack Value(Poi to Stack/Heap),Disassembly,Raw Hex Bytes,If printable Strings
-44:22.9,Argument : 0,kernel32.dll!WriteFile,0x77c30218(N/A),0xc(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-44:22.9,Argument : 1,kernel32.dll!WriteFile,0x77c30218(N/A),0x12f068(stack),"and edx,[esi+0x55]; push eax; insb ; popa ; jns 0x67; jc 0x22; ",235655506c6179657220,#VUPlayer 
-44:22.9,Argument : 2,kernel32.dll!WriteFile,0x77c30218(N/A),0x14(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-44:22.9,Argument : 3,kernel32.dll!WriteFile,0x77c30218(N/A),0x12f04c(stack),"jo 0xb; xchg eax,ecx; jl 0xfffffff2; inc ebp; mov bl,0x0; add [eax],eax; ",7009917cf045b3000100,p..|.E....
-44:23.0,Argument : 4,kernel32.dll!WriteFile,0x77c30218(N/A),0x0(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-,,,,,,,
-44:23.0,Argument : 0,kernel32.dll!VirtualProtect,0x1010539f(N/A),0x12ee74(stack),nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; ,9.09091E+19,..........
-44:23.0,Argument : 1,kernel32.dll!VirtualProtect,0x1010539f(N/A),0x201(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-44:23.0,Argument : 2,kernel32.dll!VirtualProtect,0x1010539f(N/A),0x40(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-44:23.0,Argument : 3,kernel32.dll!VirtualProtect,0x1010539f(N/A),0x101087c3(N/A),"add [eax],al; add [eax],al; add [eax],al; add [eax],al; add [eax],al; ",0,..........
-,,,,,,,
-44:23.0,Argument : 0,kernel32.dll!VirtualProtectEx,0x7c801ae8(N/A),0xffffffffL(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-44:23.0,Argument : 1,kernel32.dll!VirtualProtectEx,0x7c801ae8(N/A),0x12ee74(stack),nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; nop ; ,9.09091E+19,..........
-44:23.0,Argument : 2,kernel32.dll!VirtualProtectEx,0x7c801ae8(N/A),0x201(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-44:23.0,Argument : 3,kernel32.dll!VirtualProtectEx,0x7c801ae8(N/A),0x40(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-,,,,,,,
-44:30.4,Argument : 0,kernel32.dll!GetProcAddress,0x7ca39f55(N/A),0x773d0000(N/A),"dec ebp; pop edx; nop ; add [ebx],al; add [eax],al; add [eax+eax],al; ",4d5a9000030000000400,MZ........
-44:30.4,Argument : 1,kernel32.dll!GetProcAddress,0x7ca39f55(N/A),0x150(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-,,,,,,,
-44:30.4,Argument : 0,kernel32.dll!GetProcAddress,0x7ca39f55(N/A),0x773d0000(N/A),"dec ebp; pop edx; nop ; add [ebx],al; add [eax],al; add [eax+eax],al; ",4d5a9000030000000400,MZ........
-44:30.4,Argument : 1,kernel32.dll!GetProcAddress,0x7ca39f55(N/A),0x149(N/A),dec esi; das ; inc ecx; ,4e2f41,N/A
-,,,,,,,
-44:30.4,Argument : 0,kernel32.dll!GetProcAddress,0x7ca3e6de(N/A),0x7c800000(N/A),"dec ebp; pop edx; nop ; add [ebx],al; add [eax],al; add [eax+eax],al; ",4d5a9000030000000400,MZ........
-44:30.4,Argument : 1,kernel32.dll!GetProcAddress,0x7ca3e6de(N/A),0x7c9d039c(N/A),"push edx; gs insb ; gs popa ; jnc 0x67; inc ecx; arpl [eax+eax+0x0],si; ",52656c65617365416374,ReleaseAct
-,,,,,,,
-44:30.4,Argument : 0,kernel32.dll!GetProcAddress,0x7745aa26(N/A),0x7c800000(N/A),"dec ebp; pop edx; nop ; add [ebx],al; add [eax],al; add [eax+eax],al; ",4d5a9000030000000400,MZ........
-44:30.4,Argument : 1,kernel32.dll!GetProcAddress,0x7745aa26(N/A),0x773d3324(N/A),"push edx; gs insb ; gs popa ; jnc 0x67; inc ecx; arpl [eax+eax+0x0],si; ",52656c65617365416374,ReleaseAct
+Call ID,Time Stamp,API Arguments,API Name,Return Address(Poi to Stack/Heap),Stack Value(Poi to Stack/Heap),If printable Strings,Disassembly,Raw Hex Bytes
+93061153,18:50:21.787000,Argument : 0,kernel32.dll!LoadLibraryW,0x74b153b1(N/A),0xe1724(N/A),c.o.m.c.t.l.3.2...d.,"arpl [eax],ax; outsv ; add [ebp+0x0],ch; arpl [eax],ax; jz 0x2; insb ; add [ebx],dh; add [edx],dh; add [esi],ch; add [eax+eax+0x0],ah; ",63006f006d00630074006c00330032002e006400
+,,,__,,,,,
+98811124,18:50:21.802000,Argument : 0,kernel32.dll!GetProcAddress,0x74b153c9(N/A),0x70a70000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+98811124,18:50:21.802000,Argument : 1,kernel32.dll!GetProcAddress,0x74b153c9(N/A),0x74b1541c(N/A),RegisterClassNameW.......,"push edx; imul esi,gs:[bp+di+0x74],0x6c437265; popa ; jnc 0x75; dec esi; popa ; insv ; gs push edi; add [eax-0x1c],dl; add [eax],al; ",5265676973746572436c6173734e616d65570090e4ffffff00
+,,,__,,,,,
+45002974,18:50:21.812000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+45002974,18:50:21.817000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7882(N/A),EnableThemeDialogTexture.,"inc ebp; outsb ; popa ; bound ebp,[ebp+0x54]; push dword 0x44656d65; imul esp,[ecx+0x6c],0x6554676f; js 0x76; jnz 0x74; add gs:[eax],al; ",456e61626c655468656d654469616c6f675465787475726500
+,,,__,,,,,
+43369137,18:50:21.822000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+43369137,18:50:21.827000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7774(N/A),IsThemePartDefined.x..IsC,"dec ecx; jnc 0x56; push dword 0x50656d65; popa ; jc 0x76; inc esp; imul bp,gs:[esi+0x65],0x64; js 0x2; add [ecx+0x73],cl; inc ebx; ",49735468656d6550617274446566696e656400780000497343
+,,,__,,,,,
+33964067,18:50:21.832000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+33964067,18:50:21.832000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7774(N/A),IsThemePartDefined.x..IsC,"dec ecx; jnc 0x56; push dword 0x50656d65; popa ; jc 0x76; inc esp; imul bp,gs:[esi+0x65],0x64; js 0x2; add [ecx+0x73],cl; inc ebx; ",49735468656d6550617274446566696e656400780000497343
+,,,__,,,,,
+85649506,18:50:21.837000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+85649506,18:50:21.842000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7802(N/A),GetThemeFont....BufferedP,"inc edi; ?? jz 0x57; push dword 0x46656d65; outsv ; outsb ; jz 0x2; adc [eax],eax; add [edx+0x75],al; ?? jc 0x6a; fs push eax; ",4765745468656d65466f6e7400110000427566666572656450
+,,,__,,,,,
+76298563,18:50:21.847000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+76298563,18:50:21.852000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7a14(N/A),GetThemeColor...GetThemeT,"inc edi; ?? jz 0x57; push dword 0x43656d65; outsv ; insb ; outsv ; jc 0x2; add [eax],al; inc edi; ?? jz 0x57; push dword 0x54656d65; ",4765745468656d65436f6c6f720000004765745468656d6554
+,,,__,,,,,
+58295438,18:50:21.857000,Argument : 0,kernel32.dll!LoadLibraryW,0x74b153b1(N/A),0xe16b4(N/A),c.o.m.c.t.l.3.2...d.,"arpl [eax],ax; outsv ; add [ebp+0x0],ch; arpl [eax],ax; jz 0x2; insb ; add [ebx],dh; add [edx],dh; add [esi],ch; add [eax+eax+0x0],ah; ",63006f006d00630074006c00330032002e006400
+,,,__,,,,,
+44654446,18:50:21.862000,Argument : 0,kernel32.dll!GetProcAddress,0x74b153c9(N/A),0x70a70000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+44654446,18:50:21.867000,Argument : 1,kernel32.dll!GetProcAddress,0x74b153c9(N/A),0x74b1541c(N/A),RegisterClassNameW.......,"push edx; imul esi,gs:[bp+di+0x74],0x6c437265; popa ; jnc 0x75; dec esi; popa ; insv ; gs push edi; add [eax-0x1c],dl; add [eax],al; ",5265676973746572436c6173734e616d65570090e4ffffff00
+,,,__,,,,,
+55820172,18:50:21.872000,Argument : 0,kernel32.dll!GetProcAddress,0x709f63b3(N/A),0x74790000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+55820172,18:50:21.877000,Argument : 1,kernel32.dll!GetProcAddress,0x709f63b3(N/A),0x70a254ac(N/A),DwmSetWindowAttribute...D,"inc esp; ja 0x6f; push ebx; ?? jz 0x5a; imul ebp,[esi+0x64],0x7441776f; jz 0x74; imul esp,[edx+0x75],0x6574; add [eax+eax+0x0],al; ",44776d53657457696e646f7741747472696275746500000044
+,,,__,,,,,
+90338082,18:50:21.887000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+90338082,18:50:21.892000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7726(N/A),BufferedPaintInit...GetTh,"inc edx; jnz 0x68; ?? jc 0x69; fs push eax; popa ; imul ebp,[esi+0x74],0x74696e49; add [eax],al; add [edi+0x65],al; jz 0x56; push dword 0x1000000; ",42756666657265645061696e74496e69740000004765745468
+,,,__,,,,,
+67266585,18:50:21.902000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+67266585,18:50:21.902000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb77a0(N/A),BufferedPaintRenderAnimat,"inc edx; jnz 0x68; ?? jc 0x69; fs push eax; popa ; imul ebp,[esi+0x74],0x646e6552; ?? jc 0x44; outsb ; imul ebp,[ebp+0x61],0x3b200074; ",42756666657265645061696e7452656e646572416e696d6174
+,,,__,,,,,
+42954860,18:50:21.907000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+42954860,18:50:21.912000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7a24(N/A),GetThemeTransitionDuratio,inc edi; ?? jz 0x57; push dword 0x54656d65; jc 0x63; outsb ; jnc 0x6b; jz 0x6b; outsv ; outsb ; inc esp; jnz 0x74; popa ; jz 0x6b; outsv ; ,4765745468656d655472616e736974696f6e4475726174696f
+,,,__,,,,,
+45201572,18:50:21.917000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+45201572,18:50:21.917000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb77c0(N/A),BeginBufferedAnimation.m.,"inc edx; imul ebp,gs:[bp+0x42],0x65666675; jc 0x67; fs inc ecx; outsb ; imul ebp,[ebp+0x61],0x6e6f6974; add [ebp+0x0],ch; ",426567696e4275666665726564416e696d6174696f6e006d00
+,,,__,,,,,
+90010185,18:50:21.922000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+90010185,18:50:21.927000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb77da(N/A),EndBufferedAnimation.h..G,"inc ebp; outsb ; fs inc edx; jnz 0x68; ?? jc 0x69; fs inc ecx; outsb ; imul ebp,[ebp+0x61],0x6e6f6974; add [eax+0x0],ch; add [edi+0x0],al; ",456e644275666665726564416e696d6174696f6e0068000047
+,,,__,,,,,
+29861090,18:50:21.932000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+29861090,18:50:21.937000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb78fa(N/A),BeginBufferedPaint.x..Get,"inc edx; imul ebp,gs:[bp+0x42],0x65666675; jc 0x67; fs push eax; popa ; imul ebp,[esi+0x74],0x7800; inc edi; ?? jz 0x3; ",426567696e42756666657265645061696e7400780000476574
+,,,__,,,,,
+35060302,18:50:21.942000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+35060302,18:50:21.942000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb78e6(N/A),EndBufferedPaint....Begin,"inc ebp; outsb ; fs inc edx; jnz 0x68; ?? jc 0x69; fs push eax; popa ; imul ebp,[esi+0x74],0x0; inc edx; imul ebp,gs:[bp+0x0],0x203b7864; ",456e6442756666657265645061696e7400000000426567696e
+,,,__,,,,,
+44868800,18:50:21.952000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+44868800,18:50:21.952000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb79bc(N/A),DrawThemeParentBackground,"inc esp; jc 0x63; ja 0x56; push dword 0x50656d65; popa ; jc 0x67; outsb ; jz 0x44; popa ; arpl [ebx+0x67],bp; jc 0x71; jnz 0x70; add fs:[eax],al; ",447261775468656d65506172656e744261636b67726f756e64
+,,,__,,,,,
+22272888,18:50:21.957000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+22272888,18:50:21.962000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb79d8(N/A),GetThemeBackgroundContent,"inc edi; ?? jz 0x57; push dword 0x42656d65; popa ; arpl [ebx+0x67],bp; jc 0x71; jnz 0x70; fs inc ebx; outsv ; outsb ; jz 0x67; outsb ; jz 0x2; ",4765745468656d654261636b67726f756e64436f6e74656e74
+,,,__,,,,,
+54600789,18:50:21.967000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+54600789,18:50:21.967000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7ac4(N/A),DrawThemeText...GetThemeB,"inc esp; jc 0x63; ja 0x56; push dword 0x54656d65; ?? js 0x77; add [eax],al; add [edi+0x65],al; jz 0x56; push dword 0x42656d65; ",447261775468656d65546578740000004765745468656d6542
+,,,__,,,,,
+30048941,18:50:21.972000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+30048941,18:50:21.977000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7aae(N/A),GetThemeTextExtent.x..Dra,"inc edi; ?? jz 0x57; push dword 0x54656d65; ?? js 0x77; inc ebp; js 0x76; gs outsb ; jz 0x2; js 0x2; add [edx+esi*2+0x61],al; ",4765745468656d6554657874457874656e7400780000447261
+,,,__,,,,,
+35579095,18:50:22.842000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+35579095,18:50:22.842000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7812(N/A),BufferedPaintStopAllAnima,"inc edx; jnz 0x68; ?? jc 0x69; fs push eax; popa ; imul ebp,[esi+0x74],0x706f7453; inc ecx; insb ; insb ; inc ecx; outsb ; imul ebp,[ebp+0x61],0x2e30e000; ",42756666657265645061696e7453746f70416c6c416e696d61
+,,,__,,,,,
+71801562,18:50:22.881000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+71801562,18:50:22.883000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7834(N/A),BufferedPaintUnInit...Get,"inc edx; jnz 0x68; ?? jc 0x69; fs push eax; popa ; imul ebp,[esi+0x74],0x6e496e55; imul esi,[eax+eax+0x0],0x74654700; ",42756666657265645061696e74556e496e6974000000476574
+,,,__,,,,,
+38364478,18:50:22.892000,Argument : 0,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+38364478,18:50:22.893000,Argument : 1,kernel32.dll!GetProcAddress,0x70a9f2fc(N/A),0x70bb7a62(N/A),CloseThemeData....OpenThe,"inc ebx; insb ; outsv ; jnc 0x67; push esp; push dword 0x44656d65; popa ; jz 0x63; add [eax],al; add [eax],al; dec edi; jo 0x67; outsb ; push esp; push dword 0xe0000065; ",436c6f73655468656d6544617461000000004f70656e546865
+,,,__,,,,,
+56145534,18:50:24.306000,Argument : 0,kernel32.dll!LoadLibraryExW,0x70b098d0(N/A),0x70b098f4(N/A),i.m.a.g.e.r.e.s...d.,"imul eax,[eax],0x61006d; add [di+0x0],ah; jc 0x2; add gs:[ebx+0x0],dh; add cs:[eax+eax+0x0],ah; ",69006d006100670065007200650073002e006400
+,,,__,,,,,
+12729461,18:50:24.921000,Argument : 0,kernel32.dll!GetProcAddress,0x6ee06cee(N/A),0x709e0000(N/A),MZ..,"dec ebp; pop edx; nop ; add [eax],al; ",4d5a9000
+12729461,18:50:24.921000,Argument : 1,kernel32.dll!GetProcAddress,0x6ee06cee(N/A),0x6ee33088(N/A),BufferedPaintUnInit.DwmIs,"inc edx; jnz 0x68; ?? jc 0x69; fs push eax; popa ; imul ebp,[esi+0x74],0x6e496e55; imul esi,[eax+eax+0x44],0x73496d77; ",42756666657265645061696e74556e496e69740044776d4973
+,,,__,,,,,
